@@ -24,8 +24,9 @@ venv/
 ~/.cache/
 huggingface/
 
-# LangChain / Chroma vector DB
+# Ignore Chroma persistent storage (includes faiss_index)
 chroma_langchain_db/
+faiss_index/
 
 # Model files (if downloaded locally)
 *.bin
