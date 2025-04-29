@@ -1,0 +1,47 @@
+# Python cache
+__pycache__/
+*.py[cod]
+*.so
+
+# Environment
+.env
+.venv/
+env/
+venv/
+*.egg-info/
+.conda
+
+# Notebook checkpoints
+.ipynb_checkpoints/
+
+# VSCode config (if using)
+.vscode/
+
+# Mac OS files
+.DS_Store
+
+# Hugging Face cache & credentials
+~/.cache/
+huggingface/
+
+# LangChain / Chroma vector DB
+chroma_langchain_db/
+
+# Model files (if downloaded locally)
+*.bin
+*.pt
+
+# Logs
+*.log
+
+# Secret keys (just in case)
+*.key
+*.pem
+token.txt
+hf_token.txt
+
+# Output files
+*.out
+*.pdf
+*.mp4
+*.zip
