@@ -34,7 +34,7 @@ This project implements two versions of a chatbot using **LangChain**, **Hugging
 ```bash
 git clone https://github.com/didulabhanuka/LectureNotes-Chatbot.git
 cd ctse-chatbot
-```
+````
 
 2. Install dependencies:
 ```bash
